@@ -56,7 +56,6 @@
         .Logon {
             display: none
         }
-nav{display:none}
         nav li {
             font-size: 20px;
             color: white;
@@ -119,7 +118,7 @@ nav{display:none}
 div ul{margin-top:-10px;
 line-height: 23px;
 padding-left:20px}
-        footer {display:none;
+        footer {
             padding-left: 10px !important;
             padding: 0px;
             position: relative;
@@ -140,7 +139,7 @@ padding-left:20px}
             padding: 0px
         }
         
-        footer li {display:none
+        footer li {
             padding-right: 5px;
             padding-left: 5px;
             position: relative;
@@ -232,11 +231,11 @@ smartphone smartphone smartphone smartphone smartphone smartphone smartphone sma
                     z-index: 4
                 }
                 input[type=checkbox]:checked ~ nav {
-                    display: none
+                    display: block
                 }
                 .open-menu-label {
                     position: fixed;
-                    display: none;
+                    display: block;
                     width: 100%;
                     padding: 10px;
                     left: 0px;
@@ -275,7 +274,7 @@ smartphone smartphone smartphone smartphone smartphone smartphone smartphone sma
                     background-color: rgb(20, 165, 20);
                     z-index: 2
                 }
-                footer {display: none;
+                footer {display: block;
                     background-image: none;
                     background-color: rgb(13, 109, 14);
                 }
