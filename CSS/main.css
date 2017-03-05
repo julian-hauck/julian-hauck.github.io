@@ -197,9 +197,10 @@ padding-left:20px}
             div {
                 margin-left: 0px;
                 margin-right: 0px;
-                width: auto;
-                padding.0px
+                width: 100%!important;
+                padding:5px;
             }
+            div p{with: auto !important}
             body {
                 background-color: white
             }
