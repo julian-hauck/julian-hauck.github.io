@@ -225,7 +225,7 @@ smartphone smartphone smartphone smartphone smartphone smartphone smartphone sma
                     display: none
                 }
                 .Logon {
-                    display: block;
+                    display: inline-block;
                     position: fixed;
                     right: 3px;
                     top: 3px;
