@@ -212,14 +212,10 @@ smartphone smartphone smartphone smartphone smartphone smartphone smartphone sma
 */
             @media screen and (max-width: 600px) {
                 .Logo {
-                    position: fixed;
-                    right: -9999px;
-                    top: -999px
+                    display:none
                 }
                 .Logoz {
-                    position: fixed;
-                    right: -9999px;
-                    top: -999px
+                   display:none
                 }
                 nav {
                     display: none
