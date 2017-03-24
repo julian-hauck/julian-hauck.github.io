@@ -246,7 +246,8 @@ smartphone smartphone smartphone smartphone smartphone smartphone smartphone sma
                 input[type=checkbox]:checked ~ nav {
                     display: block
                 }
-                .open-menu-label {
+                .open-menu-label {box-sizing: border-box;
+                    height: 54px;
                     position: fixed;
                     display: block;
                     width: 100%;
