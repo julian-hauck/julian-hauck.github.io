@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="0.79374999mm"
-   height="5.5562439mm"
-   viewBox="0 0 0.79375 5.5562436"
+   width="9"
+   height="23"
+   viewBox="0 0 2.3812501 6.0854164"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="45.254834"
-     inkscape:cx="4.7049776"
-     inkscape:cy="14.07324"
+     inkscape:cx="4.7049768"
+     inkscape:cy="14.073248"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,7 +39,8 @@
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     units="px" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -56,7 +57,7 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-15.500115,-131.71858)">
+     transform="translate(-15.500115,-131.18941)">
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.04492328;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.70796461;paint-order:markers fill stroke"
        id="rect4485"
@@ -64,6 +65,22 @@
        height="0.79374999"
        x="133.30608"
        y="-16.293865"
+       transform="rotate(90)" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.04492328;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.70796461;paint-order:markers fill stroke"
+       id="rect4485-8"
+       width="3.96875"
+       height="0.79374999"
+       x="133.30608"
+       y="-17.087616"
+       transform="rotate(90)" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.04492328;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.70796461;paint-order:markers fill stroke"
+       id="rect4485-81"
+       width="3.96875"
+       height="0.79374999"
+       x="133.30608"
+       y="-17.881367"
        transform="rotate(90)" />
   </g>
 </svg>
