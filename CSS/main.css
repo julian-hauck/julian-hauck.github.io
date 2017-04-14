@@ -319,6 +319,7 @@ smartphone smartphone smartphone smartphone smartphone smartphone smartphone sma
             display: block;
         }
         .open-menu-label {
+            z-index: 2;
             box-sizing: border-box;
             height: 54px;
             position: fixed;
