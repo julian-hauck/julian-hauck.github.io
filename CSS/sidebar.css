@@ -57,7 +57,7 @@
     margin-left: auto;
     margin-right: auto;
     overflow-y: auto;
-    max-height: 80%;
+    max-height: 100%;
     border-image: url(https://julian-hauck.github.io/images/Balken_Rahmen.svg) 50 stretch;
     border-width: 10px;
     border-style: solid;
