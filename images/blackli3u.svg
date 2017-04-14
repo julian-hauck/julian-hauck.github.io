@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="3.968751mm"
-   height="2.3812439mm"
-   viewBox="0 0 3.968751 2.3812439"
+   width="20"
+   height="12"
+   viewBox="0 0 5.2916667 3.1749999"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="blackli2.svg">
+   sodipodi:docname="blackli3u.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="45.254834"
-     inkscape:cx="4.7166618"
-     inkscape:cy="2.0446127"
+     inkscape:cx="6.6508022"
+     inkscape:cy="8.231797"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,7 +39,8 @@
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     units="px" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -56,13 +57,22 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-15.497024,-131.71101)">
+     transform="translate(-15.497024,-130.91725)">
     <rect
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.04492328;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.70796461;paint-order:markers fill stroke"
-       id="rect4485"
-       width="3.96875"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0401806;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.70796461;paint-order:markers fill stroke"
+       id="rect4485-6"
+       width="3.175"
        height="0.79374999"
+       x="-134.09225"
+       y="-16.290773"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.04235408;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.70796461;paint-order:markers fill stroke"
+       id="rect4485"
+       width="5.2916665"
+       height="0.52916664"
        x="15.497024"
-       y="133.29851" />
+       y="-131.44641"
+       transform="scale(1,-1)" />
   </g>
 </svg>
