@@ -125,7 +125,8 @@ nav ul {
 
 nav {
     padding: 0px;
-    margin: 0px
+    margin: 0px;
+    z-index: 3;
     /*            background-image: url(https://julian-hauck.github.io/images/Balken3.svg)*/
 }
 
@@ -319,7 +320,7 @@ smartphone smartphone smartphone smartphone smartphone smartphone smartphone sma
             display: block;
         }
         .open-menu-label {
-            z-index: 2;
+            z-index: 3;
             box-sizing: border-box;
             height: 54px;
             position: fixed;
