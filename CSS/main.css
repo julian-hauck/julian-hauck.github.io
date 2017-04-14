@@ -257,6 +257,16 @@ footer li {
     height: 180px;
 }
 
+.protectedBox{
+    padding:0px;
+    margin:0px;
+    width:100%;
+    overflow-x: auto;
+    border-color: rgb(123,123,123);
+    border-width: 1px;
+    border-style: solid;
+}
+
 @media screen and (max-width: 1070px) {
     .content {
         box-sizing: border-box;
