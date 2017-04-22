@@ -109,7 +109,7 @@ nav ul {
     padding-bottom: 0px;
     padding-right: 0px;
     padding-left: 2px;
-    z-index: 3;
+    z-index: 10;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -126,7 +126,7 @@ nav ul {
 nav {
     padding: 0px;
     margin: 0px;
-    z-index: 3;
+    z-index: 10;
     /*            background-image: url(https://julian-hauck.github.io/images/Balken3.svg)*/
 }
 
@@ -139,7 +139,7 @@ nav {
 }
 
 .content {
-    z-index: 1;
+    z-index: 5;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -178,7 +178,7 @@ footer {
     color: white;
     padding-right: 0px;
     width: 100%;
-    z-index: 1
+    z-index: 5
 }
 
 .program {
@@ -320,7 +320,7 @@ smartphone smartphone smartphone smartphone smartphone smartphone smartphone sma
             display: block;
         }
         .open-menu-label {
-            z-index: 3;
+            z-index: 10;
             box-sizing: border-box;
             height: 54px;
             position: fixed;
@@ -367,7 +367,6 @@ smartphone smartphone smartphone smartphone smartphone smartphone smartphone sma
             width: 100%;
             background-image: none;
             background-color: rgb(20, 165, 20);
-            z-index: 3
         }
         footer {
             display: block;

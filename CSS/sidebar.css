@@ -13,7 +13,7 @@
     width: 50%;
     align-items: center;
     justify-content: center;
-    z-index:2;
+    z-index:-1;
 }
 
 .sC:checked~.sl {
@@ -47,6 +47,7 @@
 }
 
 .sidebar {
+    z-index:7;
     width: 230px;
     text-decoration: none;
     box-sizing: border-box;
@@ -143,6 +144,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left center;
+    z-index:8;
 }
 
 #sB:checked~div {
@@ -170,6 +172,7 @@
     width: auto;
     align-items: center;
     justify-content: right;
+    z-index: 6;
 }
     .sidebar{margin-left:0px;
     margin-right:0px;
