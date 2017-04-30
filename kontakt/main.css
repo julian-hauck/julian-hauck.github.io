@@ -139,7 +139,6 @@ nav {
 }
 
 .content {
-    position: relative;
     z-index: 5;
     width: 1000px;
     margin-left: auto;
