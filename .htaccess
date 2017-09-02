@@ -1,0 +1,5 @@
+AuthName "Bitte melden Sie sich an, um Zugriff auf den geschützten Bereich zu erlangen."
+AuthType Basic
+AuthUserFile /customers/c/0/8/julian-hauck.github.io/httpd.www/protected/.htpasswd
+AuthGroupFile /dev/null 
+require valid-user
