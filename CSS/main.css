@@ -2,7 +2,10 @@
     width: auto;
     font-size: 16px;
     font-family: sans-serif;
-    background-color: #b7b7b7;
+    /*background-color: #b7b7b7;*/
+    background-image: url("https://julian-hauck.github.io/images/WasserT.png");  
+    background-repeat:repeat;
+    background-size: 55%;
     margin: 0px;
     padding: 0px;
 }
