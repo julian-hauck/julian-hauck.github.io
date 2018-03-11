@@ -62,7 +62,7 @@
     border-image: url(https://julian-hauck.github.io/images/Balken_Rahmen.svg) 50 stretch;
     border-width: 10px;
     border-style: solid;
-    background-color: rgba(255,255,255,0.85);
+    background-color:white;
 }
 
 .sidebar a {
@@ -102,7 +102,7 @@
 }
 
 .noLine {
-    background-color: rgba(255,255,255,0.85);
+    background-color: white;
 }
 
 .sLast {
