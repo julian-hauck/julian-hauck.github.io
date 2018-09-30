@@ -397,3 +397,8 @@ smartphone smartphone smartphone smartphone smartphone smartphone smartphone sma
             display: none;
         }
     }
+    image.fullWidth{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
