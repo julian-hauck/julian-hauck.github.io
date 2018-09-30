@@ -271,7 +271,18 @@ footer li {
     border-width: 1px;
     border-style: solid;*/
 }
-
+    .unfallBild{
+        position: relative;
+        top: 0px;
+        right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: auto;
+        padding: 0px;
+        width: 50%;
+        display: block;
+    }
 @media screen and (max-width: 1070px) {
     .content {
         box-sizing: border-box;
@@ -287,18 +298,7 @@ footer li {
     body {
         background-color: white
     }
-    .unfallBild{
-        position: relative;
-        top: 0px;
-        right: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        margin-right: auto;
-        padding: 0px;
-        width: 50%;
-        display: block;
-    }
+
     /*
 
 smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone 
