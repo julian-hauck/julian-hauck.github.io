@@ -18,13 +18,8 @@
 </head>
 
 <body>
-    
-    <script>
-        document.write("<style> .unfallBild {display: none;} </style>");
-        window.onload = function(){document.write("<style> .unfallBild {display: none !important;} </style>");};
-    </script>
-    
-    <label for="open-menu" class="open-menu-label"><span class="nav-span">&#9776;</span>Navigation</label>
+    <script>window.onload = function(){alert(document.value);};</script>
+ <label for="open-menu" class="open-menu-label"><span class="nav-span">&#9776;</span>Navigation</label>
     <input type="checkbox" id="open-menu" />
     <nav>
         <ul>
@@ -48,7 +43,7 @@
     <img class="Logon" src="https://julian-hauck.github.io/images/Seehund_Logo.svg" />
     <input type="checkbox" id="InfoBoxCheck">
     <label for="InfoBoxCheck" id="InfoBoxLabel">ok</label>
-    <div id="InfoBox">
+    <div id="InfoBox" value="5">
         Herzlich Willkommen!
         <br>
         Bitte haben Sie ein wenig Geduld beim Laden dieser Seite, <br>da alle Bilder in voller Qualität zur Verfügung gestellt werden.
@@ -97,5 +92,6 @@
         </ul>
 
     </footer>
+    
 <!--<script type="text/javascript"> alert("Bitte haben Sie ein wenig Geduld beim Laden dieser Seite, da alle Unfallbilder in voller Qualität zur Verfügung gestellt werden. Drücken Sie OK um fortzufahren.");</script>-->
 </body>
