@@ -2,14 +2,68 @@
     width: auto;
     font-size: 16px;
     font-family: sans-serif;
-    /*background-color: #b7b7b7;*/
-    background-image: url("https://julian-hauck.github.io/images/WasserT.png");  
+    background-color: #b7b7b7;
     background-repeat:repeat;
     background-size: 900px;
     margin: 0px;
     padding: 0px;
 }
-
+#InfoBox{
+    text-align: center;
+    box-sizing:border-box;
+    display: block;
+    position: fixed;
+    z-index: 18;
+    background-color: white;
+    width: 300px;
+    height: 180px;
+    top: 50%;
+    left: 50%;
+    margin: 0px;
+    margin-left: -150px !important;
+    margin-top: -90px !important;
+    padding: 7px;
+    padding-bottom: 50px! important;
+    border-image: url(https://julian-hauck.github.io/images/Balken_Rahmen.svg) 50 stretch;
+    border-width: 10px;
+    border-style: solid;
+    }
+#InfoBoxCheck{
+    display: none;
+}
+#InfoBoxLabel{
+    box-sizing: border-box;
+    z-index: 20;
+    position:fixed;
+    background-image: url(https://julian-hauck.github.io/images/Balken3.svg);
+    background-size: contain;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 40px;
+    margin: 0px;
+    padding: 5px;
+    margin-left: -35px !important;
+    margin-top: 30px !important;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #474747;
+    text-align: center;
+}
+#InfoBoxLabel:hover{
+    filter: brightness(150%)
+}
+#InfoBoxCheck:checked~#InfoBox {
+    display: none;
+}
+#InfoBoxCheck:checked~#InfoBoxLabel {
+    display: none;
+}
 h1 {padding-top: 60px;
     margin-top: -40px;
     margin-bottom: 5px;
@@ -271,7 +325,6 @@ footer li {
     border-width: 1px;
     border-style: solid;*/
 }
-
     .unfallBild{
         position: relative;
         top: 0px;
@@ -281,10 +334,9 @@ footer li {
         margin-left: 0px;
         margin-right: auto;
         padding: 0px;
-        width: 50%;
+        width: 100%;
         display: block;
     }
-
 @media screen and (max-width: 1070px) {
     .content {
         box-sizing: border-box;
@@ -300,6 +352,7 @@ footer li {
     body {
         background-color: white
     }
+
     /*
 
 smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone 
@@ -409,4 +462,9 @@ smartphone smartphone smartphone smartphone smartphone smartphone smartphone sma
         .bi {
             display: none;
         }
+    }
+    image.fullWidth{
+        margin: 0;
+        padding: 0;
+        width: 100%;
     }
