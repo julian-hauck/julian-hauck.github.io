@@ -280,7 +280,7 @@ footer li {
         margin-left: 0px;
         margin-right: auto;
         padding: 0px;
-        width: 50%;
+        width: 100%;
         display: block;
     }
 @media screen and (max-width: 1070px) {
