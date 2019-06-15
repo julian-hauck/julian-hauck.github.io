@@ -1,0 +1,184 @@
+.usidebar {
+    display: flex;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding: bottom: 20px;
+    padding-top: 50px;
+    padding-right: 530px;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    z-index:1;
+}
+
+.sC:checked~.sl {
+    background-image: url(https://julian-hauck.github.io/images/plus.svg);
+}
+
+.sC {
+    display: none
+}
+
+.sl {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://julian-hauck.github.io/images/minus.svg);
+    background-size: contain;
+    height: 12px;
+    width: 12px;
+    margin-left: -15px;
+    margin-top: 3px;
+    /*
+    border-width: 2px;
+    border-right-style: solid;
+*/
+}
+
+.sdId {}
+
+.sC:checked~ul {
+    display: none
+}
+
+.sidebar {
+    z-index:7;
+    width: 230px;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-left: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+    max-height: 100%;
+    border-image: url(https://julian-hauck.github.io/images/Balken_Rahmen.svg) 50 stretch;
+    border-width: 10px;
+    border-style: solid;
+    background-color:white;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    margin: 0px
+}
+
+/*
+.sidebar div {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: -1px;
+    border-color: blue;
+    border-left-style: solid;
+    overflow: visible;
+    position: relative;
+    top: -2px
+}
+*/
+
+.sidebar ul {
+    margin-right: 0px;
+    margin-bottom: 2px;
+    margin-left: -10px;
+    margin-top: -3px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-left-style: solid;
+    border-color: rgb(123, 123, 123);
+    border-top-style: none;
+    border-left-width: 2px;
+    /*    border-image: url(https://julian-hauck.github.io/images/blackliv3.svg) 2 3 space;*/
+}
+
+.noLine {
+    background-color: white;
+}
+
+.sLast {
+    background-image: url(https://julian-hauck.github.io/images/blackligu.svg)!important;
+    background-position: bottom left !important
+}
+
+.sidebar li {
+    list-style: none;
+    padding: 0px;
+    padding-left: 20px;
+    margin: 0px;
+    margin-left: -2px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-image: url(https://julian-hauck.github.io/images/blacklign.svg);
+}
+
+.sidebar h1 {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px
+}
+
+.sidebar h2 {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 3px;
+}
+
+.sideButton {
+    display: none;
+    width: 20px;
+    height: 60px;
+    background-image: url(https://julian-hauck.github.io/images/siraus.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    z-index:8;
+}
+
+#sB:checked~div {
+    display: block
+}
+
+@media screen and (max-width: 1510px) {
+    .sidebar {
+        display: none;
+    }
+    #sB:checked~div {
+        display: block
+    }
+    #sB:checked~.sideButton{
+        background-image: url(https://julian-hauck.github.io/images/sirein.svg)
+    }
+    .sideButton {
+        float:right;
+        display: block !important;
+    }
+.usidebar {display: flex;
+    flex-direction: row-reverse;
+    padding-right: 0px;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    justify-content: right;
+    z-index: 6;
+}
+    .sidebar{margin-left:0px;
+    margin-right:0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    }
+}
+.isidebar{margin:0px;
+padding: 0px;}
