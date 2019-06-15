@@ -1,0 +1,416 @@
+    body {
+    width: auto;
+    font-size: 16px;
+    font-family: sans-serif;
+    /*background-color: #b7b7b7;*/
+    background-image: url("https://julian-hauck.github.io/images/WasserT.png");  
+    background-repeat:repeat;
+    background-size: 900px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {padding-top: 60px;
+    margin-top: -40px;
+    margin-bottom: 5px;
+    text-decoration: underline
+}
+
+h2 {
+    padding-top: 50px;
+    margin-top: -40px;
+    margin-bottom: 5px;
+    text-decoration: underline
+}
+
+h3 {padding-top:50px;
+    margin-top:-40px;
+    margin-bottom: -12px
+}
+
+#htutorial {
+    margin-bottom: 15px;
+    margin-top: 0px
+}
+
+#Tutorial {
+    border-top-style: solid;
+    padding-top: 25px;
+    margin-top: 30px
+}
+
+.LLog {
+    cursor: default
+}
+
+.Logo {
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    width: 130px;
+    z-index: 11
+}
+
+.Logop {
+    opacity: 0;
+    float: right;
+    position: relative;
+    right: 0px;
+    top: -30px;
+    width: 102px;
+    z-index: 14;
+    margin: 0px;
+    padding: 0px
+}
+
+.Logoz {
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    width: 130px;
+    ;
+    z-index: 15;
+    opacity: 0
+}
+
+.Logoz:hover {
+    opacity: 1
+}
+
+.Logon {
+    display: none
+}
+
+nav li {
+    font-size: 20px;
+    color: white;
+    float: left;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #474747;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px
+}
+
+.active {
+    background-color: rgba(20, 20, 20, 0.25)
+}
+
+nav li:hover {
+    background-color: rgba(20, 20, 20, 0.25)
+}
+
+nav ul {
+    box-sizing: border-box;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 2px;
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    list-style: none;
+    width: 100%;
+    background-image: url(https://julian-hauck.github.io/images/Balken3.svg);
+    background-size: contain;
+}
+
+.nbar {
+    text-decoration: none;
+}
+
+nav {
+    padding: 0px;
+    margin: 0px;
+    z-index: 10;
+    /*            background-image: url(https://julian-hauck.github.io/images/Balken3.svg)*/
+}
+
+.open-menu-label {
+    display: none
+}
+
+#open-menu {
+    display: none
+}
+
+.content {
+    position: relative;
+    z-index: 5;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255,255,255,0.85);
+    padding: 25px;
+    padding-top: 67px !important
+}
+
+.content p {
+    line-height: 23px;
+}
+
+.content ul {
+    margin-bottom: 3px;
+    margin-top: -10px;
+    line-height: 23px;
+    padding-left: 20px;
+}
+
+.rot {
+    color: red
+}
+
+.Link {
+    list-style: none
+}
+
+footer {
+    padding-left: 0px !important;
+    padding: 0px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(https://julian-hauck.github.io/images/Balken3.svg);
+    background-size: contain;
+    color: white;
+    padding-right: 0px;
+    width: 100%;
+    z-index: 5
+}
+
+.program {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+    border-top-style: solid;
+    border-width: 1px
+}
+
+.prgmimg {
+    float: right;
+    padding: 0px;
+    margin-top: -50px;
+    margin: 5px;
+    margin-top: -5px
+}
+
+.foot-ul {
+    /*            width: 50%;*/
+    text-align: justify;
+    margin: 0px;
+    padding: 0px
+}
+
+footer li {
+    padding-right: 5px;
+    padding-left: 5px;
+    position: relative;
+    bottom: -8px;
+    margin-bottom: -20px;
+    margin-top: -5px;
+    display: inline-block;
+    list-style: none;
+    margin-right: 0px;
+    margin-left: 0px
+}
+
+.bi {
+    position: relative;
+    bottom: -8px;
+    margin-bottom: -20px;
+    margin-top: -5px;
+    display: inline-block;
+    list-style: none;
+    padding-left: 100% !important;
+    padding: 0px;
+    opacity: 1;
+    font-size: 0px;
+    line-height: 0x;
+    background-color: red;
+    border-width: 0px
+}
+
+.foot-li {
+    text-decoration: underline
+}
+
+.fa {
+    color: white
+}
+
+#Profilbild {
+    float: right;
+    border-radius: 200000px;
+    width: 150px
+}
+
+#GTR {
+    float: right;
+    width: 150px
+}
+
+#C64 {
+    margin-right: 10px;
+    float: left;
+    height: 180px;
+}
+
+.protectedBox{
+    padding:0px;
+    margin:0px;
+    width:100%;
+    overflow-x: auto;
+    /*border-color: rgb(123,123,123);
+    border-width: 1px;
+    border-style: solid;*/
+}
+    .unfallBild{
+        position: relative;
+        top: 0px;
+        right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: auto;
+        padding: 0px;
+        width: 100%;
+        display: block;
+    }
+@media screen and (max-width: 1070px) {
+    .content {
+        box-sizing: border-box;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%!important;
+        padding: 10px;
+        padding-left: 22px;
+    }
+    .contetnt p {
+        width: auto !important
+    }
+    body {
+        background-color: white
+    }
+
+    /*
+
+smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone 
+smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone 
+smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone smartphone 
+ 
+*/
+    @media screen and (max-width: 600px) {
+/*
+        .usidebar {position:fixed;
+            top: 0px;
+            left: 0px;
+            display: none;
+        }
+        .isidebar{transform: scale(1.5)}
+*/
+        .Logo {
+            display: none
+        }
+        .Logoz {
+            display: none
+        }
+        nav {
+            display: none
+        }
+        .Logon {
+            display: inline-block;
+            position: fixed;
+            right: 3px;
+            top: 3px;
+            height: 50px;
+            z-index: 12
+        }
+        #open-menu:checked~nav {
+            display: block;
+        }
+        .open-menu-label {
+            z-index: 10;
+            box-sizing: border-box;
+            height: 54px;
+            position: fixed;
+            display: block;
+            width: 100%;
+            padding: 10px;
+            left: 0px;
+            top: 0px;
+            background-image: url(https://julian-hauck.github.io/images/Balken3.svg);
+    background-size: contain;
+/*            background-image:: rgb(13, 109, 14);*/
+            cursor: pointer;
+            color: white;
+            font-size: 25px;
+/*
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: #474747;
+*/
+            border-style: none;
+            margin: 0px;
+        }
+        .nav-span {
+            margin-right: 10px
+        }
+        nav li {
+            color: black;
+            float: none;
+            padding: 5px;
+            background-color: rgba;
+            border-style: solid;
+            border-top-style: none;
+            border-radius: 0px;
+            border-width: 1px;
+            border-color: #474747;
+            margin: 0px;
+            font-size: 23px
+        }
+        nav ul {
+            padding: 0px;
+            position: fixed;
+            top: 54px;
+            list-style: none;
+            width: 100%;
+            background-image: none;
+            background-color: rgb(20, 165, 20);
+        }
+        footer {
+            display: block;
+/*
+            background-image: none;
+            background-color: rgb(13, 109, 14);
+*/
+        }
+        .foot-ul {
+            text-align: left;
+        }
+        footer li {
+            float: none;
+            padding: 5px;
+            padding-right: 5px;
+            padding-left: 5px;
+            position: static;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            display: block;
+            list-style: none;
+        }
+        .bi {
+            display: none;
+        }
+    }
+    image.fullWidth{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
